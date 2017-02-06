@@ -1,0 +1,18 @@
+﻿生成启动时间为 2017/1/9 21:31:08。
+     1>项目“E:\VS2013文件\OpenGL3.3\projects\glfw\Texture\Texture.vcxproj”在节点 5 上(Rebuild 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>e:\vs2013文件\opengl3.3\projects\glfw\texture\main.cpp(173): warning C4305: “+=”: 从“double”到“GLfloat”截断
+     1>e:\vs2013文件\opengl3.3\projects\glfw\texture\main.cpp(177): warning C4305: “-=”: 从“double”到“GLfloat”截断
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\VS2013文件\OpenGL3.3\projects\glfw\Debug\Texture.exe" /INCREMENTAL /NOLOGO opengl32.lib glfw3.lib glew32s.lib SOIL.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\VS2013文件\OpenGL3.3\projects\glfw\Debug\Texture.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\VS2013文件\OpenGL3.3\projects\glfw\Debug\Texture.lib" /MACHINE:X86 Debug\main.obj
+     1>LINK : warning LNK4098: 默认库“MSVCRT”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
+     1>LINK : warning LNK4098: 默认库“LIBCMT”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
+     1>glew32s.lib(glew.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“glew32s.lib(glew.obj)”或在“E:\VS2013文件\OpenGL3.3\projects\glfw\Debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+         Texture.vcxproj -> E:\VS2013文件\OpenGL3.3\projects\glfw\Debug\Texture.exe
+     1>已完成生成项目“E:\VS2013文件\OpenGL3.3\projects\glfw\Texture\Texture.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:46.48

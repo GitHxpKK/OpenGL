@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "glfw", "glfw\glfw.vcxproj", "{D1721F8A-3A25-4510-B53F-690CCADC5E57}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "shader", "shader\shader.vcxproj", "{6E16DD3D-D584-40F5-B421-F5F2375509AA}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Texture", "Texture\Texture.vcxproj", "{03EE4136-87EA-4206-9817-659E5515824F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Transform", "Transform\Transform.vcxproj", "{F9750260-1A39-4F2C-B9B5-2043D8479A78}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Color", "Color\Color.vcxproj", "{014CD48C-EB01-4D11-A638-A0429733D65E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D1721F8A-3A25-4510-B53F-690CCADC5E57}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D1721F8A-3A25-4510-B53F-690CCADC5E57}.Debug|Win32.Build.0 = Debug|Win32
+		{D1721F8A-3A25-4510-B53F-690CCADC5E57}.Release|Win32.ActiveCfg = Release|Win32
+		{D1721F8A-3A25-4510-B53F-690CCADC5E57}.Release|Win32.Build.0 = Release|Win32
+		{6E16DD3D-D584-40F5-B421-F5F2375509AA}.Debug|Win32.ActiveCfg = Debug|Win32
+		{6E16DD3D-D584-40F5-B421-F5F2375509AA}.Debug|Win32.Build.0 = Debug|Win32
+		{6E16DD3D-D584-40F5-B421-F5F2375509AA}.Release|Win32.ActiveCfg = Release|Win32
+		{6E16DD3D-D584-40F5-B421-F5F2375509AA}.Release|Win32.Build.0 = Release|Win32
+		{03EE4136-87EA-4206-9817-659E5515824F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{03EE4136-87EA-4206-9817-659E5515824F}.Debug|Win32.Build.0 = Debug|Win32
+		{03EE4136-87EA-4206-9817-659E5515824F}.Release|Win32.ActiveCfg = Release|Win32
+		{03EE4136-87EA-4206-9817-659E5515824F}.Release|Win32.Build.0 = Release|Win32
+		{F9750260-1A39-4F2C-B9B5-2043D8479A78}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F9750260-1A39-4F2C-B9B5-2043D8479A78}.Debug|Win32.Build.0 = Debug|Win32
+		{F9750260-1A39-4F2C-B9B5-2043D8479A78}.Release|Win32.ActiveCfg = Release|Win32
+		{F9750260-1A39-4F2C-B9B5-2043D8479A78}.Release|Win32.Build.0 = Release|Win32
+		{014CD48C-EB01-4D11-A638-A0429733D65E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{014CD48C-EB01-4D11-A638-A0429733D65E}.Debug|Win32.Build.0 = Debug|Win32
+		{014CD48C-EB01-4D11-A638-A0429733D65E}.Release|Win32.ActiveCfg = Release|Win32
+		{014CD48C-EB01-4D11-A638-A0429733D65E}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
